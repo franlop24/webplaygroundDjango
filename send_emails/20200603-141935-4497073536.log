@@ -1,0 +1,26 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: =?utf-8?q?Contrase=C3=B1a_restablecida_en_localhost=3A8000?=
+From: webmaster@localhost
+To: francisco@gmail.com
+Date: Wed, 03 Jun 2020 14:19:35 -0000
+Message-ID: 
+ <159119397504.39855.13454151292797446823@MacBook-Pro-de-Francisco-3.local>
+
+
+Ha recibido este correo electrónico porque ha solicitado restablecer la contraseña para su cuenta en localhost:8000.
+
+Por favor, vaya a la página siguiente y escoja una nueva contraseña.
+
+http://localhost:8000/accounts/reset/MQ/5h1-f2ea2d84123e0943c4db/
+
+Your username, in case you’ve forgotten: franlop24
+
+¡Gracias por usar nuestro sitio!
+
+El equipo de localhost:8000
+
+
+
+-------------------------------------------------------------------------------

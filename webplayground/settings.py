@@ -130,5 +130,17 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 #auth redirects
-LOGIN_REDIRECT_URL = 'home'
+#LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
+
+#emails
+if DEBUG:
+    EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
+    EMAIL_FILE_PATH = os.path.join(BASE_DIR, "send_emails")
+else:
+    #Aqui hay que configurar un email real para produccion
+    pass
+
+#media files
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
