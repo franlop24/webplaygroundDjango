@@ -77,6 +77,10 @@
                       document.getElementById("thread").appendChild(message);
                       document.getElementById('content').value = '';
                       ScrollBottomThread();
+
+                      if(data.first){
+                        window.location.href = "{% url 'messenger:detail' thread.pk %}"
+                      }
                     }
                   })
               })
